@@ -1,6 +1,6 @@
 #
 # @file
-# mparker17's theme.
+# mparker17's prompt.
 #
 # Put in ~/.config/fish/functions/fish_prompt.fish
 #
