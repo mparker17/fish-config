@@ -2,8 +2,6 @@
 # @file
 # Colored manpages.
 #
-# Put in ~/.config/fish/functions/man.fish
-#
 # @see https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/colored-man/colored-man.plugin.zsh
 #
 function man

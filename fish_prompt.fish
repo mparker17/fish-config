@@ -26,7 +26,7 @@ set __fish_git_prompt_color_upstream       cyan
 # Icons:
 set __fish_git_prompt_char_cleanstate      "✓"
 set __fish_git_prompt_char_conflictedstate "💢 "
-set __fish_git_prompt_char_dirtystate      "✏ "
+set __fish_git_prompt_char_dirtystate      "✏️ "
 set __fish_git_prompt_char_stagedstate     "🎭 "
 set __fish_git_prompt_char_untrackedfiles  "✨ "
 set __fish_git_prompt_char_upstream_ahead  "↑"
@@ -130,6 +130,10 @@ function prompt_home
   set_color cyan
   echo -n "$HOME"
   set_color normal
+end
+
+function fish_greeting -d "what's up, fish?"
+  printf "%s: a %s %s shell running at %s on a %s connected to %s on %s: a %s machine.\nYou are %s@%s in directory %s and your home folder is %s." (prompt_fish_version) (prompt_interactivity) (prompt_login) (prompt_level) (prompt_term) (prompt_tty) (prompt_host) (prompt_machine) (prompt_user) (prompt_host) (pwd) (prompt_home)
 end
 
 #
