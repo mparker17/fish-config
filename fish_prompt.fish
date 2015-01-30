@@ -49,6 +49,12 @@ function prompt_host
   set_color normal
 end
 
+function prompt_wd_full
+  set_color red
+  echo -n (pwd)
+  set_color normal
+end
+
 function prompt_wd
   set_color red
   echo -n (prompt_pwd)
@@ -133,7 +139,7 @@ function prompt_home
 end
 
 function fish_greeting -d "what's up, fish?"
-  printf "%s: a %s %s shell running at %s on a %s connected to %s on %s: a %s machine.\nYou are %s@%s in directory %s and your home folder is %s." (prompt_fish_version) (prompt_interactivity) (prompt_login) (prompt_level) (prompt_term) (prompt_tty) (prompt_host) (prompt_machine) (prompt_user) (prompt_host) (pwd) (prompt_home)
+  printf "%s: a %s %s shell running at %s on a %s connected to %s on %s: a %s machine.\nYou are %s@%s in directory %s and your home folder is %s." (prompt_fish_version) (prompt_interactivity) (prompt_login) (prompt_level) (prompt_term) (prompt_tty) (prompt_host) (prompt_machine) (prompt_user) (prompt_host) (prompt_wd_full) (prompt_home)
 end
 
 #
