@@ -70,17 +70,17 @@ function prompt_exit_status
     case 0
       # Noop.
     case 1
-      echo "💥  ($status: invalid arguments?)"
+      echo "💥  [exited with error code $status: (invalid arguments?)]"
     case 124
-      echo "💥  ($status: no glob matches?)"
+      echo "💥  [exited with error code $status: (no glob matches?)]"
     case 125
-      echo "💥  ($status: found and executable but could not execute?)"
+      echo "💥  [exited with error code $status: (found and executable but could not execute?)]"
     case 126
-      echo "💥  ($status: found but not executable?)"
+      echo "💥  [exited with error code $status: (found but not executable?)]"
     case 127
-      echo "💥  ($status: no function, builtin or command found)"
+      echo "💥  [exited with error code $status: (no function, builtin or command found?)]"
     case '*'
-      echo "💥  ($status)"
+      echo "💥  [exited with error code $status]"
   end
 end
 
