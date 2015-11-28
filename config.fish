@@ -31,6 +31,7 @@ set PATH $PATH /Users/mparker17/Repositories/git-hooks
 # Command-specific environment variables.
 set -x PYTHONPATH '/usr/local/lib/python2.7/site-packages:$PYTHONPATH'
 set -x DRUSH_PHP '/Applications/MAMP/bin/php/php5.4.39/bin/php'
+set -x USER_ID (id -u)
 
 # Aliases.
 alias gut 'git'
