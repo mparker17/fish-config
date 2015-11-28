@@ -16,11 +16,11 @@ set __fish_git_prompt_showupstream "informative"
 
 # Colors:
 set __fish_git_prompt_color_branch         magenta
-set __fish_git_prompt_color_cleanstate     green bold
-set __fish_git_prompt_color_dirtystate     brown bold
-set __fish_git_prompt_color_invalidstate   red bold
-set __fish_git_prompt_color_stagedstate    cyan bold
-set __fish_git_prompt_color_untrackedfiles yellow bold
+set __fish_git_prompt_color_cleanstate     green
+set __fish_git_prompt_color_dirtystate     brown
+set __fish_git_prompt_color_invalidstate   red
+set __fish_git_prompt_color_stagedstate    cyan
+set __fish_git_prompt_color_untrackedfiles yellow
 set __fish_git_prompt_color_upstream       cyan
 
 # Icons:
