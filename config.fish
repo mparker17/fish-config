@@ -39,6 +39,7 @@ set -x DRUSH_PHP '/Applications/MAMP/bin/php/php5.6.10/bin/php'
 set -x EDITOR (which vim)
 set -x PYTHONPATH '/usr/local/lib/python2.7/site-packages:$PYTHONPATH'
 set -x USER_ID (id -u)
+set -x HTML_TIDY '$HOME/.tidy-config'
 
 # Environment variables (docker).
 # You can get these by running (docker-machine env default).
