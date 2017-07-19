@@ -60,6 +60,7 @@ alias rgrep 'grep --line-number --color=auto -r'
 alias dcs "phpcs --standard=Drupal -- "
 alias dpcs "phpcs --standard=DrupalPractice -- "
 alias dcr 'docker-compose run --rm '
+alias jsc 'node -i'
 
 # Aliases (Mac OS/X only).
 alias sed 'gsed'
