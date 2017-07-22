@@ -1,20 +1,3 @@
-# Path to your oh-my-fish.
-set -g OMF_PATH $HOME/.local/share/omf
-
-# Path to your oh-my-fish configuration.
-set -g OMF_CONFIG $HOME/.config/omf
-
-### Configuration required to load oh-my-fish ###
-# Note: Only add configurations that are required to be set before oh-my-fish is loaded.
-# For common configurations, we advise you to add them to your $OMF_CONFIG/init.fish file or
-# to create a custom plugin instead.
-
-# Load oh-my-fish configuration.
-source $OMF_PATH/init.fish
-
-##########
-
-
 # Additional paths (priority global).
 set PATH /Applications/MAMP/Library/bin $PATH
 set PATH /Applications/MAMP/bin $PATH
@@ -24,7 +7,6 @@ set PATH (npm bin) $PATH
 
 # Additional paths (priority user).
 set PATH $HOME/.composer/vendor/bin $PATH
-set PATH $HOME/Projects/Extensions/git-hooks $PATH
 
 # Additional paths (normal global).
 
@@ -32,7 +14,7 @@ set PATH $HOME/Projects/Extensions/git-hooks $PATH
 set PATH $PATH $HOME/Library/bin
 set PATH $PATH $HOME/Projects/Preferences/git-hooks
 set PATH $PATH $HOME/Projects/Extensions/arcanist/bin
-set PATH $PATH $HOME/.gem/ruby/2.0.0/bin
+set PATH $PATH $HOME/.gem/ruby/2.4.1/bin
 
 # Environment variables.
 set -x DRUSH_PHP '/Applications/MAMP/bin/php/php5.6.10/bin/php'
