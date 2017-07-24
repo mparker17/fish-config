@@ -48,6 +48,7 @@ alias jsc 'node -i'
 
 # Aliases (Mac OS/X only).
 #alias grep 'ggrep --color=auto'
+#alias gpg 'gpg2'
 #alias rgrep 'ggrep --line-number --color=auto -r'
 #alias sed 'gsed'
 
