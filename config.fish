@@ -46,6 +46,7 @@ alias dpcsf "phpcbf --standard=DrupalPractice -- "
 alias dcr 'docker-compose run --rm '
 alias drgrep "grep -r --exclude-dir='.git' --exclude-dir='.idea' --exclude-dir='vendor'"
 alias jsc 'node -i'
+alias which 'type'
 
 # Aliases (Mac OS/X only).
 #alias grep 'ggrep --color=auto'
