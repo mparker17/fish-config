@@ -30,6 +30,7 @@ set -x EDITOR (which vim)
 set -x USER_ID (id -u)
 set -x HTML_TIDY "$HOME/.tidy-config"
 #set -x GPGKEY
+set -x LESS "-R -m -w -Pm?f%F:[stdin]. | [Lines %lt–%lb/%L=%Pt–%Pb] col %c [Bytes %bt–%bb/%B=%pt–%pb\%] [Page %dt/%D] ?e[EOF].%t"
 
 # Aliases (common mistakes).
 alias gut 'git'
