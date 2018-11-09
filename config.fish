@@ -1,3 +1,8 @@
+#
+# @file
+# Friendly Interactive Shell (fish) configuration.
+#
+
 # Additional paths (priority global).
 set PATH /Applications/MAMP/Library/bin $PATH
 set PATH /Applications/MAMP/bin $PATH
