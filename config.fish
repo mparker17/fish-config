@@ -8,18 +8,18 @@ set -g fish_color_host blue
 set -g fish_color_cwd  red
 
 # Additional paths (priority global).
-set PATH /Applications/MAMP/Library/bin $PATH
-set PATH /Applications/MAMP/bin $PATH
+set -x PATH /Applications/MAMP/Library/bin $PATH
+set -x PATH /Applications/MAMP/bin $PATH
 
 # Additional paths (priority user).
-set PATH $HOME/.composer/vendor/bin $PATH
-set PATH $HOME/.rbenv/bin $PATH
+set -x PATH $HOME/.composer/vendor/bin $PATH
+set -x PATH $HOME/.rbenv/bin $PATH
 
 # Additional paths (normal global).
 
 # Additional paths (normal user).
-set PATH $PATH $HOME/Library/bin
-set PATH $PATH $HOME/Projects/Utils/git-hooks
+set -x PATH $PATH $HOME/Library/bin
+set -x PATH $PATH $HOME/Projects/Utils/git-hooks
 
 # Environment variables.
 set -x EDITOR (which vim)
