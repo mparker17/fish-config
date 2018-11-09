@@ -44,6 +44,7 @@ end
 #
 function fish_prompt -d "Message to display when the shell is ready for input."
   prompt_exit_status
-  printf '%s@%s:%s %s\n%s ' (prompt_user) (prompt_host) (prompt_wd) (prompt_git) ' 🐟 '
-#  printf '%s@%s:%s %s\n%s ' (prompt_user) (prompt_host) (prompt_wd) ' 🐟 '
+  printf '%s@%s:%s %s %s' (prompt_user) (prompt_host) (prompt_wd) (prompt_git)
+  echo
+  printf '~> '
 end
