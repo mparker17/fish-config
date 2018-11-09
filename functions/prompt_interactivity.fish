@@ -4,7 +4,7 @@
 #
 # Used in fish_greeting.fish.
 #
-function prompt_interactivity
+function prompt_interactivity -d "Colored shell interactivity."
   set_color cyan
   if status -i
     echo -n "interactive"

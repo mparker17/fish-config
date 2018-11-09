@@ -4,7 +4,7 @@
 #
 # Used by fish_prompt.fish.
 #
-function prompt_exit_status
+function prompt_exit_status -d "Colored exit status."
   switch $status
     case 0
       # Noop.

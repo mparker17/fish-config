@@ -4,7 +4,7 @@
 #
 # Used in fish_greeting.fish.
 #
-function prompt_login
+function prompt_login -d "Colored shell type."
   set_color cyan
   if status -l
     echo -n "login"

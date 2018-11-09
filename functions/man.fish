@@ -4,7 +4,7 @@
 #
 # @see https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/colored-man/colored-man.plugin.zsh
 #
-function man
+function man --wraps=man -d "Colored manpages."
   set -x LESS_TERMCAP_mb (printf "\e[1;31m")
   set -x LESS_TERMCAP_md (printf "\e[1;31m")
   set -x LESS_TERMCAP_me (printf "\e[0m")

@@ -35,14 +35,14 @@ set __fish_git_prompt_char_upstream_prefix "|"
 #
 # Helper functions.
 #
-function prompt_git
+function prompt_git -d "Wrapper for the fish git prompt."
   echo -n (__fish_git_prompt)
 end
 
 #
 # Main function.
 #
-function fish_prompt
+function fish_prompt -d "Message to display when the shell is ready for input."
   prompt_exit_status
   printf '%s@%s:%s %s\n%s ' (prompt_user) (prompt_host) (prompt_wd) (prompt_git) ' 🐟 '
 #  printf '%s@%s:%s %s\n%s ' (prompt_user) (prompt_host) (prompt_wd) ' 🐟 '
