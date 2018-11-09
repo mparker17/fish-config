@@ -2,6 +2,10 @@
 # @file
 # Friendly Interactive Shell (fish) configuration.
 #
+# Prompt settings.
+set -g fish_color_user brown
+set -g fish_color_host blue
+set -g fish_color_cwd  red
 
 # Additional paths (priority global).
 set PATH /Applications/MAMP/Library/bin $PATH
