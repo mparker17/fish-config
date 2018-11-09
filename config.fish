@@ -15,19 +15,13 @@ set -g __fish_git_prompt_color_stagedstate    cyan
 set -g __fish_git_prompt_color_untrackedfiles yellow
 set -g __fish_git_prompt_color_upstream       cyan
 
-# Additional paths (priority global).
-set -x PATH /Applications/MAMP/Library/bin $PATH
-set -x PATH /Applications/MAMP/bin $PATH
+# Where to find commands (priority).
+#set -x PATH /example $PATH
+#set -x PATH $HOME/example $PATH
 
-# Additional paths (priority user).
-set -x PATH $HOME/.composer/vendor/bin $PATH
-set -x PATH $HOME/.rbenv/bin $PATH
-
-# Additional paths (normal global).
-
-# Additional paths (normal user).
-set -x PATH $PATH $HOME/Library/bin
-set -x PATH $PATH $HOME/Projects/Utils/git-hooks
+# Where to find commands (normal).
+#set -x PATH $PATH /example
+#set -x PATH $PATH $HOME/example
 
 # Environment variables.
 set -x EDITOR (which vim)
