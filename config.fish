@@ -6,6 +6,14 @@
 set -g fish_color_user brown
 set -g fish_color_host blue
 set -g fish_color_cwd  red
+set -e __fish_git_prompt_show_informative_status
+set -g __fish_git_prompt_color_branch         magenta
+set -g __fish_git_prompt_color_cleanstate     green
+set -g __fish_git_prompt_color_dirtystate     brown
+set -g __fish_git_prompt_color_invalidstate   red
+set -g __fish_git_prompt_color_stagedstate    cyan
+set -g __fish_git_prompt_color_untrackedfiles yellow
+set -g __fish_git_prompt_color_upstream       cyan
 
 # Additional paths (priority global).
 set -x PATH /Applications/MAMP/Library/bin $PATH
