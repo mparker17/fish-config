@@ -24,6 +24,7 @@ set -g __fish_git_prompt_color_upstream       cyan
 #set -x PATH $PATH $HOME/example
 
 # Environment variables.
+set -x GREP_COLORS "ms=01;31:mc=01;31:sl=:cx=:fn=35:ln=32:bn=32:se=36"
 set -x EDITOR (which vim)
 #set -x HTML_TIDY "$HOME/.tidy-config"
 #set -x GPGKEY
