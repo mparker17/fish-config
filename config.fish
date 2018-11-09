@@ -1,16 +1,3 @@
-# PHP 5.6
-#set PATH /Applications/MAMP/bin/php/php5.6.30/bin $PATH
-#set -x DRUSH_PHP '/Applications/MAMP/bin/php/php5.6.30/bin/php'
-
-# PHP 7.0
-#set PATH /Applications/MAMP/bin/php/php7.0.15/bin $PATH
-#set -x DRUSH_PHP '/Applications/MAMP/bin/php/php7.0.15/bin/php'
-
-# PHP 7.1
-#set PATH /Applications/MAMP/bin/php/php7.1.1/bin $PATH
-#set -x DRUSH_PHP '/Applications/MAMP/bin/php/php7.1.1/bin/php'
-
-
 # Additional paths (priority global).
 set PATH /Applications/MAMP/Library/bin $PATH
 set PATH /Applications/MAMP/bin $PATH
