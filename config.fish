@@ -25,10 +25,10 @@ set -g __fish_git_prompt_color_upstream       cyan
 
 # Environment variables.
 set -x EDITOR (which vim)
-set -x USER_ID (id -u)
-set -x HTML_TIDY "$HOME/.tidy-config"
+#set -x HTML_TIDY "$HOME/.tidy-config"
 #set -x GPGKEY
 set -x LESS "-F -i -m -R -w -x4 -X -Pm?f%F:[stdin]. | [Lines %lt–%lb/%L=%Pt–%Pb] col %c [Page %dt/%D] [Bytes %bt–%bb/%B=%pt–%pb\%] ?e[EOF].%t"
+set -x USER_ID (id -u)
 
 # Aliases (common mistakes).
 alias gut 'git'
