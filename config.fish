@@ -48,6 +48,10 @@ alias drgrep "grep -r --exclude-dir='.git' --exclude-dir='.idea' --exclude-dir='
 alias jsc 'node -i'
 alias which 'type'
 
+# Aliases (Linux only).
+#alias open xdg-open
+#alias mate xdg-open
+
 # Aliases (Mac OS/X only).
 #alias grep 'ggrep --color=auto'
 #alias gpg 'gpg2'
