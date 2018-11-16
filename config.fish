@@ -62,4 +62,4 @@ alias which 'type'
 alias mike 'git'
 
 # Rbenv.
-status --is-interactive; and source (rbenv init -|psub)
+#status --is-interactive; and source (rbenv init -|psub)
