@@ -49,6 +49,7 @@ alias jsc 'node -i'
 alias which 'type'
 
 # Aliases (Linux only).
+#alias pbcopy 'xclip -selection clipboard'
 #alias open xdg-open
 #alias mate xdg-open
 
