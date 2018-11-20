@@ -24,9 +24,9 @@ set -g __fish_git_prompt_color_upstream       cyan
 #set -x PATH $PATH $HOME/example
 
 # Environment variables.
-set -x GREP_COLORS "ms=01;31:mc=01;31:sl=:cx=:fn=35:ln=32:bn=32:se=36"
+#set -x BROWSER (which links)
 set -x EDITOR (which vim)
-#set -x HTML_TIDY "$HOME/.tidy-config"
+set -x GREP_COLORS "ms=01;31:mc=01;31:sl=:cx=:fn=35:ln=32:bn=32:se=36"
 #set -x GPGKEY
 set -x LESS "-F -i -m -R -w -x4 -X -Pm?f%F:[stdin]. | [Lines %lt–%lb/%L=%Pt–%Pb] col %c [Page %dt/%D] [Bytes %bt–%bb/%B=%pt–%pb\%] ?e[EOF].%t"
 set -x USER_ID (id -u)
