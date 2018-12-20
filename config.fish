@@ -39,10 +39,6 @@ alias l 'ls -CF'
 alias ll 'ls -l'
 alias la 'ls -A'
 alias lla 'ls -A -l'
-alias dcs "phpcs --standard=Drupal -- "
-alias dpcs "phpcs --standard=DrupalPractice -- "
-alias dcsf "phpcbf --standard=Drupal -- "
-alias dpcsf "phpcbf --standard=DrupalPractice -- "
 alias dcr 'docker-compose run --rm '
 alias drgrep "grep -r --exclude-dir='.git' --exclude-dir='.idea' --exclude-dir='vendor'"
 alias jsc 'node -i'
