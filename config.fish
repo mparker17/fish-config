@@ -22,6 +22,7 @@ set -g __fish_git_prompt_color_upstream       cyan
 # Where to find commands (normal).
 #set -x PATH $PATH /example
 #set -x PATH $PATH $HOME/example
+set -x PATH $PATH $HOME/.config/bin
 
 # Environment variables.
 #set -x BROWSER (which links)
