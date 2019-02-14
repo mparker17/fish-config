@@ -7,13 +7,6 @@
 #
 
 #
-# Helper functions.
-#
-function prompt_git -d "Wrapper for the fish git prompt."
-  echo -n (__fish_git_prompt)
-end
-
-#
 # Main function.
 #
 function fish_prompt -d "Message to display when the shell is ready for input."
